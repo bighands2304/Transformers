@@ -1,0 +1,2 @@
+#creates a pdf file with the outputs
+jupyter nbconvert --execute --to pdf Gabriele_Pagano_Lorenzo_Manoni_CLIP_model.ipynb
