@@ -6,3 +6,9 @@ dataset
 
 # Exclude IntelliJ files
 .idea
+.ipynb_checkpoints
+
+# Exclude GIT files
+.gitattributes
+
+
