@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77d79faf-0873-4a45-b353-7a08e59fc778" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gabriele_Pagano_Lorenzo_Manoni_CLIP_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Gabriele_Pagano_Lorenzo_Manoni_CLIP_model.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="77d79faf-0873-4a45-b353-7a08e59fc778" name="Changes" comment="+ comments and markdowns" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,8 +57,16 @@
       <workItem from="1678472600443" duration="3772000" />
       <workItem from="1678478005151" duration="12000" />
       <workItem from="1678977109348" duration="910000" />
-      <workItem from="1679216959988" duration="4451000" />
+      <workItem from="1679216959988" duration="4853000" />
     </task>
+    <task id="LOCAL-00001" summary="+ comments and markdowns">
+      <created>1679221544164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679221544164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ comments and markdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ comments and markdowns" />
   </component>
 </project>
