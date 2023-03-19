@@ -1,0 +1,5 @@
+# Exclude the dataset from GitHub
+Dataset
+
+# Exclude MacOs files
+.DS_store
