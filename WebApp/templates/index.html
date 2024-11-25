@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/cssfile.css">
+    <meta charset="UTF-8">
+    <title>Radiology engine</title>
+</head>
+<body>
+<div id="loading-overlay">
+    <div id="loading">Loading...</div>
+</div>
+
+<div id="main-section">
+    <div id="model-selector">
+        <label for="modelSelect">Selected Model:</label>
+        <select id="modelSelect" onchange="loadModel()">
+            <option value="" selected disabled>Select a model</option>
+        </select>
+    </div>
+
+    <div id="container">
+        <div id="drop-area" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)" onclick="clickFileInput()">
+            <p>Click or drag and drop an image here</p>
+            <label id="file-label">Select Image</label>
+            <input type="file" id="file-input" accept="image/*" onchange="handleFile()" />
+        </div>
+
+        <div id="text-area">
+            <input type="text" id="text-input" placeholder="Enter text for prediction">
+            <button id="text-submit" onclick="submitText()">Submit Text</button>
+        </div>
+    </div>
+
+    <div id="slider-container">
+        <label for="slider">Number of results:</label>
+        <input type="range" id="slider" min="1" max="9" value="5" step="1" oninput="updateSliderValue()">
+        <span id="slider-value">5</span>
+    </div>
+
+    <div id="result-section">
+        <div id="result-text"></div>
+        <div id="result-images" class="image-grid"></div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../static/javascript.js"></script>
